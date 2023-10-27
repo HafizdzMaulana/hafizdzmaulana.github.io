@@ -130,5 +130,50 @@ time, mark, audio, video {
 	margin-right: 10px;
 	padding: 5px;
 	box-sizing: border-box;
-	border: 2px solid black;
+}
+
+.paragraph h1
+{
+	font-size: 20px;
+	margin-bottom: 10px;
+	text-decoration: underline black;
+}
+
+.fade-item
+{
+ transition: .2s all ease-in-out;
+ opacity: 0;
+}
+
+.fadein
+{
+	animation: fadein 1s 1;
+	animation-delay: 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fadein
+{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+.fadein-img
+{
+	animation: fadein-img 1s 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fadein-img
+{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
 }
