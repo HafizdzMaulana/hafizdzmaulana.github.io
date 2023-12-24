@@ -2,10 +2,11 @@ name: Jekyll site CI
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "about_2023" ]
   pull_request:
-    branches: [ "master" ]
-
+    branches: [ "about_2023" ]
+  paths :
+  - ".github/workflows/jekyll-docker.yml"
 jobs:
   build:
 
