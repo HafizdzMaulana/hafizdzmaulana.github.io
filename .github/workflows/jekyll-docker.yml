@@ -5,8 +5,8 @@ on:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
-  paths :
-  - ".github/workflows/jekyll-docker.yml"
+    paths :
+        - ".github/workflows/jekyll-docker.yml"
 jobs:
   build:
 
